@@ -1,0 +1,45 @@
+html{
+  height: 100%;
+  overflow: hidden;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.imageBorder{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.imageBorder .image1,
+.imageBorder .image2,
+.imageBorder .image3,
+.imageBorder .image4,
+.imageBorder .image5{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: top center;
+  /*background-size: cover;*/
+}
+.imageBorder .image1{
+  background-image: url(../images/1348814002177.jpg);
+  z-index: 1;
+}
+.imageBorder .image2{
+  background-image: url(../images/1348814017665.jpg);
+  z-index: 2;
+}
+.imageBorder .image3{
+  background-image: url(../images/1348814031329.jpg);
+  z-index: 3;
+}
+.imageBorder .image4{
+  background-image: url(../images/1348814045192.jpg);
+  z-index: 4;
+}
+.imageBorder .image5{
+  background-image: url(../images/1348814061388.jpg);
+  z-index: 5;
+}
